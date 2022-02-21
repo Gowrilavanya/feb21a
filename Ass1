@@ -1,0 +1,13 @@
+n=4
+c=0 
+for i in range(n):
+    for j in range(n):
+        print(chr(97 + c), end=" ")
+        c+=1 
+    print()
+
+Output
+a b c d 
+e f g h 
+i j k l 
+m n o p 
